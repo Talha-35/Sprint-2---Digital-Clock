@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: url(img/7.jpg);
-    min-height: 120vh;
+    background-image: url(img/1.jpg);
+    min-height: 107vh;
     
 }
 
@@ -36,6 +36,7 @@ body{
 
 
 #time div span {
+    background-color: rgba(2, 2, 2, 0.5);
     color: rgb(255, 255, 255);    
     margin: 5px;
     height:110px;
