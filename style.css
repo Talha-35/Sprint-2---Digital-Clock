@@ -8,22 +8,18 @@ body{
     background-image: url(img/saat_kulesi_izmir2.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    display: flex;  
     text-align: center;
     min-height: 100vh;
     color: rgb(2, 2, 2);
     position: relative;
 }
 
-#clock {
-    /* border: 1px solid red; */
+#clock {   
     position: relative;    
     display: inline-block;
     margin-top: 5%;
-    margin-left: 12% ;
-    /* width: 20%; */
+    margin-left: 12% ;  
 }
 
 
@@ -36,7 +32,6 @@ body{
     letter-spacing: 3px;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
-    /* background-color: rgba(233, 224, 212, 0.2);  */
     border-radius: ;
 }
 
@@ -46,7 +41,6 @@ body{
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 5%;
-    /* border: 1px solid rgb(0, 255, 76); */
     justify-content: space-between;
    
 }
@@ -61,7 +55,6 @@ body{
     margin: 5px;
     height: 130px;
     width: 120px ;
-    /* border: 1px solid red; */
     border-radius: 20px;
     font-size: 3.75rem;
     font-weight: bold;
