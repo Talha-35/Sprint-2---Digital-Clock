@@ -1,0 +1,52 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/7.jpg);
+    min-height: 120vh;
+    
+}
+
+#clock h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgb(3, 3, 3);
+    /* background-color: rgba(233, 224, 212, 0.2);  */
+    border-radius: ;
+}
+
+#clock {
+    position: relative;      
+    display: inline-block;
+    margin-top: 7%;  
+    margin-left:13px;
+    border: 1px solid red;  
+}
+
+
+#time {
+    position: relative;    
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto;
+    /* justify-content: space-between; */
+   
+}
+
+
+#time div span {
+    color: rgb(255, 255, 255);    
+    margin: 5px;
+    height:110px;
+    width: 100px ;
+}
+
+#time div span:nth-child(2) {   
+    font-size: 1.2rem;
+    font-weight: bold;
+}

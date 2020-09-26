@@ -1,0 +1,49 @@
+#clock {
+    /* border: 1px solid red; */
+    position: relative;    
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 16% ;
+    /* width: 20%; */
+}
+
+
+#clock h2 {
+    position: relative;    
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    /* background-color: rgba(233, 224, 212, 0.2);  */
+    /* border-radius: ; */
+}
+
+
+/* #time {
+    position: relative;    
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+   
+   
+} */
+
+
+#time div span {
+    background-color: rgba(185, 224, 241,0.2);
+   
+    margin: 5px;
+    height: 160px;
+    width: 140px ;
+   
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* 
+#time div span:nth-child(2) {   
+    font-size: 1.5rem;
+    font-weight: bold;
+} */
